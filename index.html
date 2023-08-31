@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>snack-blitz | working</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav>
+            <img src="images/logo.png" alt="Doritos">
+            <div id="links">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CHIPS</a>
+                <a href="#">SERVICES</a>
+            </div>
+            <div id="search-box">
+                <input type="search" placeholder="Search" />
+                <span></span>
+                <img src="images/bag.png" alt="">
+            </div>
+        </nav>
+        <article>
+            <div id="flavor-data">
+                <span id="flavor-name">NACHO CHEESE</span>
+                <span id="flavor-desc">Savory nacho cheese meets crunchy tortilla chip in this crazy delicious snack. 110% awesome.</span>
+                <div>
+                    <div id="add-to-cart">
+                        <div>
+                            <img src="images/cart.png" />
+                        </div>
+                        ADD TO CART
+                    </div>
+                    <div id="qtdy-control">
+                        <button id="minus">-</button>
+                        <input id="qtdy" type="text" value="1"/>
+                        <button id="plus">+</button>
+                    </div>
+                </div>
+            </div>
+            <div id="pack">
+                <img id="pack-img" src="images/nacho_cheese.webp" style="transform: rotate(-15deg)"/>
+                <div id="bubbles">
+                    <div class="bubble">
+                        <div>
+                            <img src="images/cheese.png" alt="Cheese" />
+                        </div>
+                        <span>CHEESE</span>
+                    </div>
+                    <div class="bubble">
+                        <div>
+                            <img src="images/nacho.png" alt="Crunchy" />
+                        </div>
+                        <span>CRUNCHY</span>
+                    </div>
+                    <div class="bubble">
+                        <div>
+                            <img src="images/corn.png" alt="Corn" />
+                        </div>
+                        <span>CORN</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer>
+            <div class="itm-footer">
+                <div>
+                    <img src="images/nacho_cheese.webp" alt="nacho" />
+                    <div >
+                        <span>NACHO CHEESE</span>
+                        <span>R22.00</span>
+                        <span>ORDER NOW</span>
+                    </div>
+                </div>
+            </div>
+            <div class="itm-footer">
+                <div>
+                    <img src="images/cool_ranch.webp" alt="Cool Ranch" />
+                    <div >
+                        <span>COOL RANCH</span>
+                        <span>R19.50</span>
+                        <span>ORDER NOW</span>
+                    </div>
+                </div>
+            </div>
+            <div class="itm-footer">
+                <div>
+                    <img src="images/spicy_sweet_chili.webp" alt="nacho" />
+                    <div >
+                        <span>SWEET CHILLI</span>
+                        <span>R22.50</span>
+                        <span>ORDER NOW</span>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
